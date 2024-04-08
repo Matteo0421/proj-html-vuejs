@@ -3,10 +3,12 @@ import axios from 'axios';
 import { store } from './data/store'
 import Header from './components/Header.vue'
 import Main from './components/Main.vue'
+import JumboTron from './components/JumboTron.vue';
   export default {
     components:{
       Header,
-      Main
+      Main,
+      JumboTron
     }
   }
 </script>
@@ -14,6 +16,7 @@ import Main from './components/Main.vue'
 <template>
   <Header />
   <Main />
+  <JumboTron />
 </template>
 
 
