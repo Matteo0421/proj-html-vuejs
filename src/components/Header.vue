@@ -1,11 +1,16 @@
 <script>
 import {store} from '../data/store'
+import Navbar from './partials/Navbar.vue';
   export default {  
     data(){
       return{
-        store
+        store,
       }
-    }
+    },
+    components: {
+    Navbar
+  },
+
     
   }
 </script>
@@ -13,7 +18,8 @@ import {store} from '../data/store'
 
 <template>
 <body>
-  
+<Navbar />
+
 </body>
 </template>
 
@@ -23,7 +29,16 @@ import {store} from '../data/store'
 
 body{
   background-image: url(../img/course-9-f-img.jpg);
-  height: 600px; //debug
   background-size: cover;  
+  height: 600px;
+}
+body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3); /* Imposta un colore di sfondo semi-trasparente */
 }
 </style>
