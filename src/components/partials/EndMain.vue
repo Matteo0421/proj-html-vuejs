@@ -1,8 +1,10 @@
 <script>
 import CaroselCardCourses from './CaroselCardCourses.vue';
+import PricingTable from './PricingTable.vue';
   export default {
     components:{
       CaroselCardCourses,
+      PricingTable
     },
   }
 </script>
@@ -43,6 +45,12 @@ import CaroselCardCourses from './CaroselCardCourses.vue';
 
       <CaroselCardCourses />
     </div>
+
+    <div class="pricing-container">
+      <h3 class="text-center">Pricing Plans</h3>
+      <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque tenetur, dolores voluptatum voluptatibus </p>
+      <PricingTable />
+    </div>
   </div>
 </template>
 
@@ -71,11 +79,19 @@ import CaroselCardCourses from './CaroselCardCourses.vue';
   bottom: -25px;
   right: 0;
 }
-
-.online-container h3{
+.online-container{
+  background-image: url(../../img/img-secondarie/page-background-img.png  ) ;
+}.online-container h3{
   font-size: 2rem;
   margin-top: 120px;
 }p{
   color: #6B5E5E;
+}
+
+.pricing-container{
+  background-image: url(../../img/img-secondarie/page-background-img.png  ) ;
+}.pricing-container h3{
+  font-size: 2rem;
+  margin-top: 120px;
 }
 </style>

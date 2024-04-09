@@ -33,6 +33,7 @@
 <style lang="scss" scoped>
 .card{
   margin-right: 40px;
+  margin-bottom: 120px;
 }span, p, .user-font{
   color: #A7A7A7;
 }
