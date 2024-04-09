@@ -5,7 +5,7 @@
       img: String,
       title: String,
       author: String,
-      description: String,
+      descriptiom: String,
       number: Number,
       profession: String,
     }
@@ -16,12 +16,13 @@
   <div>
     <div class="card" style="width: 18rem;">
       <img :src=" img " alt="" class="card-img-top"  >
-      <span>{{ author }}</span>
       <div class="card-body">
-      <p class="card-text"> {{ description }}</p>
+        <h5 class="mt-3">{{ title }}</h5>
+        <span>{{ author }}</span>
+        <p class="card-text mt-3"> {{ descriptiom }}</p>
       <div class="user-font">
-        <span><i class="fa-solid fa-user"></i> {{ number }}</span>
-        <span><i class="fa-solid fa-tag"></i>{{ profession }}</span>
+        <span ><i class="fa-solid fa-user me-2"></i> {{ number }}</span>
+        <span class="ms-4"><i class="fa-solid fa-tag me-2"></i>{{ profession }}</span>
       </div>
   </div>
 </div>
@@ -30,6 +31,10 @@
 
 
 <style lang="scss" scoped>
-
+.card{
+  margin-right: 40px;
+}span, p, .user-font{
+  color: #A7A7A7;
+}
 </style>
 
