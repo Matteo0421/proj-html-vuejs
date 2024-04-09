@@ -1,12 +1,15 @@
 <script>
+import CaroselCardCourses from './CaroselCardCourses.vue';
   export default {
-    
+    components:{
+      CaroselCardCourses,
+    },
   }
 </script>
 
 <template>
   <div class="word-container">
-    <div class="row">
+    <div class="row possibilites-tabs">
   <div class="col-4">
     <div class="list-group" id="list-tab" role="tablist">
       <a class="my-active text-decoration-none " href="#">What We Do</a>
@@ -32,13 +35,21 @@
       </div>
     </div>
   </div>
-</div>
+    </div>
+
+    <div class="online-container">
+      <h3 class="text-center">Popular Online Coursess</h3>
+      <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque tenetur, dolores voluptatum voluptatibus cupiditate perferendis reiciendis. Error deleniti, magnam aspernatur dignissimos aut quibusdam quos enim.</p>
+
+      <CaroselCardCourses />
+    </div>
   </div>
 </template>
 
 <style lang="scss" scoped>
 .word-container{
   margin: 60px 45px;
+  margin-bottom: 150px;
 }a{
   padding: 30px 20px;
   border: 1px solid #E7E7E7;
@@ -59,5 +70,12 @@
   position: absolute;
   bottom: -25px;
   right: 0;
+}
+
+.online-container h3{
+  font-size: 2rem;
+  margin-top: 120px;
+}p{
+  color: #6B5E5E;
 }
 </style>

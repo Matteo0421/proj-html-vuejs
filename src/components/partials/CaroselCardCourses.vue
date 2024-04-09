@@ -1,4 +1,7 @@
 <script>
+import CardCourses from './CardCourses.vue';
+import { store } from '../../data/store';
+
   export default {
     
   }
