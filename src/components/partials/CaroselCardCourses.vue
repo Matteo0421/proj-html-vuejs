@@ -11,7 +11,11 @@ import { store } from '../../data/store';
 
 <template>
   <div>
-    <CardCourses />
+    <CardCourses v-for=" card in store.CardsListCorses"
+        :key="card.id"
+        :title="card.title"
+        :img="card.img"
+  />
   </div>
 </template>
 

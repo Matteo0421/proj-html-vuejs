@@ -27,7 +27,7 @@ import EndMain from './partials/EndMain.vue';
         :key="card.id"
         :title="card.title"
         :img="card.img"
-        />
+  />
  </div>
 
  <MiddleMain />
