@@ -32,8 +32,8 @@ import PricingTable from './PricingTable.vue';
           <li><i class="fa-solid fa-check" style="color: #39c3ff;"></i> Maximizing potential through individual attention.</li>
           <li><i class="fa-solid fa-check" style="color: #39c3ff;"></i> The trusted name for specialized training.</li>
           <li><i class="fa-solid fa-check" style="color: #39c3ff;"></i> People teach. People learn. This is where they connect.</li>
-        </ul>
-        <img src="../../img/img-secondarie/h12-tabs-icon-1.png" alt="">
+        </ul> 
+        <img class="img-absolute" src="../../img/img-secondarie/h12-tabs-icon-1.png" alt="">
       </div>
     </div>
   </div>
@@ -50,6 +50,13 @@ import PricingTable from './PricingTable.vue';
       <h3 class="text-center">Pricing Plans</h3>
       <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque tenetur, dolores voluptatum voluptatibus </p>
       <PricingTable />
+    </div>
+
+    <div class="school-container">
+      <img src="../../img/img-secondarie/h5-client-5.png" alt="scuola-1">
+      <img src="../../img/img-secondarie/h5-client-1.png" alt="scuola-2">
+      <img src="../../img/img-secondarie/h5-client-2.png" alt="scuola-3">
+      <img src="../../img/img-secondarie/h5-client-1.png" alt="scuola-4">
     </div>
   </div>
 </template>
@@ -74,7 +81,7 @@ import PricingTable from './PricingTable.vue';
 }li{
   color: #6B5E5E;
   margin-bottom: 30px;
-}img{
+}.img-absolute{
   position: absolute;
   bottom: -25px;
   right: 0;
@@ -93,5 +100,9 @@ import PricingTable from './PricingTable.vue';
 }.pricing-container h3{
   font-size: 2rem;
   margin-top: 120px;
+}
+
+.school-container img{
+  width: 25%;
 }
 </style>
