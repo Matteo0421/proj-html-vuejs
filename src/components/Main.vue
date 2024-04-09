@@ -3,11 +3,13 @@ import {store} from '../data/store'
 import Card from './partials/Card.vue';
 import MiddleMain from './partials/MiddleMain.vue';
 import BlueCarosel from './partials/BlueCarosel.vue';
+import EndMain from './partials/EndMain.vue';
   export default {
     components:{
       Card,
       MiddleMain,
-      BlueCarosel
+      BlueCarosel,
+      EndMain
     },
     data(){
       return{
@@ -30,6 +32,7 @@ import BlueCarosel from './partials/BlueCarosel.vue';
 
  <MiddleMain />
  <BlueCarosel />
+ <EndMain />
 </div>
 </template>
 

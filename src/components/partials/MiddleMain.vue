@@ -32,6 +32,8 @@
       </div>
     </div>
 
+    
+
 
   </div>
 </template>
@@ -45,7 +47,7 @@
   color: #36C3FF;
 }img{
   margin-bottom: 100px;
-}.word-container img{
+}.childrean-container img{
   width: 55%;
 }.number{
   margin-top: 25px;
