@@ -91,5 +91,5 @@ export const store = reactive({
       number: 1,
       profession: 'STUDENT',
     },
-  ]
+  ],
 })
