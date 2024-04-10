@@ -31,7 +31,9 @@ import EndMain from './partials/EndMain.vue';
  </div>
 
  <MiddleMain />
- <BlueCarosel />
+ <div class="blue-carosel">
+  <BlueCarosel />
+ </div>
  <EndMain />
 </div>
 </template>
@@ -41,5 +43,10 @@ import EndMain from './partials/EndMain.vue';
 <style lang="scss" scoped>
  .card-container{
   margin-top: 55px;
+ }
+
+ .blue-carosel{
+  background-image: url(../img/img-secondarie/h5-parallax-img-1.png);
+  padding-bottom: 120px;
  }
 </style>

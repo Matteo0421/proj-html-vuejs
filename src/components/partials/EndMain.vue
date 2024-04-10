@@ -84,7 +84,8 @@ import PricingTable from './PricingTable.vue';
 }.img-absolute{
   position: absolute;
   bottom: -25px;
-  right: 0;
+  right: 90px;
+  width: 150px;
 }
 .online-container{
   background-image: url(../../img/img-secondarie/page-background-img.png  ) ;

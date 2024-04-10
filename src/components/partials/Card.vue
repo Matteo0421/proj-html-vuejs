@@ -22,8 +22,9 @@
     width: 160px;
     height: 180px;
     background-color: #F2F8FC;
+    margin-bottom: 90px;
   }img{
-    margin-left: 30px ;
+    margin-left: 40px ;
     margin-top: 40px;
     margin-bottom: 30px;
   }

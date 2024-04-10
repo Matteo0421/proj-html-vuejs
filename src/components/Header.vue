@@ -1,6 +1,7 @@
 <script>
 import {store} from '../data/store'
 import Navbar from './partials/Navbar.vue';
+import CaroselHeader from './partials/CaroselHeader.vue';
   export default {  
     data(){
       return{
@@ -8,7 +9,8 @@ import Navbar from './partials/Navbar.vue';
       }
     },
     components: {
-    Navbar
+    Navbar,
+    CaroselHeader
   },
 
     
@@ -20,6 +22,8 @@ import Navbar from './partials/Navbar.vue';
 <body>
 <Navbar />
 
+<CaroselHeader />
+
 </body>
 </template>
 
@@ -30,7 +34,7 @@ import Navbar from './partials/Navbar.vue';
 body{
   background-image: url(../img/course-9-f-img.jpg);
   background-size: cover;  
-  height: 600px;
+  height: 770px;
 }
 body::before {
   content: '';
@@ -38,7 +42,7 @@ body::before {
   top: 0;
   left: 0;
   width: 100%;
-  height: 600px;
+  height: 770px;
   background-color: rgba(0, 0, 0, 0.3); 
 }
 </style>
