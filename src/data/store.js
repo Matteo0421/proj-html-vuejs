@@ -92,4 +92,72 @@ export const store = reactive({
       profession: 'STUDENT',
     },
   ],
+
+  HeaderCarosel: [
+    {
+      id: 1,
+      title: 'Contemporary Ideas',
+      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Error soluta inventore accusamus tenetur voluptate ex molestias et harum mollitia odio dolores, cumque eum delectus ipsam adipisci itaque, sapiente perferendis? Porro magni illo repudiandae modi sint cum alias dolorem dolor doloremque?',
+    },
+    {
+      id: 2,
+      title: 'Leaders in Learning',
+      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Error soluta inventore accusamus tenetur voluptate ex molestias et harum mollitia odio dolores, cumque eum delectus ipsam adipisci itaque, sapiente perferendis? Porro magni illo repudiandae modi sint cum alias dolorem dolor doloremque?',
+    },
+    {
+      id: 3,
+      title: 'Accelerate Your Career',
+      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Error soluta inventore accusamus tenetur voluptate ex molestias et harum mollitia odio dolores, cumque eum delectus ipsam adipisci itaque, sapiente perferendis? Porro magni illo repudiandae modi sint cum alias dolorem dolor doloremque?',
+    },
+    {
+      id: 4,
+      title: 'Build Your Futute',
+      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Error soluta inventore accusamus tenetur voluptate ex molestias et harum mollitia odio dolores, cumque eum delectus ipsam adipisci itaque, sapiente perferendis? Porro magni illo repudiandae modi sint cum alias dolorem dolor doloremque?',
+    },
+  ],
+
+  BlueCarosel: [
+    {
+      id: 1,
+      img: 'src/img/img-secondarie/testimonials-standard-1.png',
+      descriptiom: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo praesentium ea dolore esse dicta recusandae nemo fuga mollitia sint nulla incidunt quod ipsam ab omnis eum soluta nostrum doloribus, unde consequatur quam repellat accusamus. Corporis quibusdam voluptatem praesentium amet odio omnis eveniet temporibus reprehenderit, mollitia tenetur magnam voluptas fugiat quos.',
+      name: 'Joan Collins',
+      status:'STUDENT',
+    },
+    {
+      id: 2,
+      img: 'src/img/img-secondarie/testimonials-standard-2.png',
+      descriptiom: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo praesentium ea dolore esse dicta recusandae nemo fuga mollitia sint nulla incidunt quod ipsam ab omnis eum soluta nostrum doloribus, unde consequatur quam repellat accusamus. Corporis quibusdam voluptatem praesentium amet odio omnis eveniet temporibus reprehenderit, mollitia tenetur magnam voluptas fugiat quos.',
+      name: 'Joan Collins',
+      status:'STUDENT',
+    },
+    {
+      id: 3,
+      img: 'src/img/img-secondarie/testimonials-standard-3.png',
+      descriptiom: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo praesentium ea dolore esse dicta recusandae nemo fuga mollitia sint nulla incidunt quod ipsam ab omnis eum soluta nostrum doloribus, unde consequatur quam repellat accusamus. Corporis quibusdam voluptatem praesentium amet odio omnis eveniet temporibus reprehenderit, mollitia tenetur magnam voluptas fugiat quos.',
+      name: 'Joan Collins',
+      status:'STUDENT',
+    },
+    {
+      id: 4,
+      img: 'src/img/img-secondarie/testimonials-standard-4.png',
+      descriptiom: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo praesentium ea dolore esse dicta recusandae nemo fuga mollitia sint nulla incidunt quod ipsam ab omnis eum soluta nostrum doloribus, unde consequatur quam repellat accusamus. Corporis quibusdam voluptatem praesentium amet odio omnis eveniet temporibus reprehenderit, mollitia tenetur magnam voluptas fugiat quos.',
+      name: 'Joan Collins',
+      status:'STUDENT',
+    },
+    {
+      id: 5,
+      img: 'src/img/img-secondarie/testimonials-standard-5.png',
+      descriptiom: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo praesentium ea dolore esse dicta recusandae nemo fuga mollitia sint nulla incidunt quod ipsam ab omnis eum soluta nostrum doloribus, unde consequatur quam repellat accusamus. Corporis quibusdam voluptatem praesentium amet odio omnis eveniet temporibus reprehenderit, mollitia tenetur magnam voluptas fugiat quos.',
+      name: 'Joan Collins',
+      status:'STUDENT',
+    },
+    {
+      id: 6,
+      img: 'src/img/img-secondarie/testimonials-standard-6.png',
+      descriptiom: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo praesentium ea dolore esse dicta recusandae nemo fuga mollitia sint nulla incidunt quod ipsam ab omnis eum soluta nostrum doloribus, unde consequatur quam repellat accusamus. Corporis quibusdam voluptatem praesentium amet odio omnis eveniet temporibus reprehenderit, mollitia tenetur magnam voluptas fugiat quos.',
+      name: 'Joan Collins',
+      status:'STUDENT',
+    },
+  ]
 })
