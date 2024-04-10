@@ -9,22 +9,22 @@
     <table class="table table-bordered">
   <thead>
     <tr>
-      <th scope="col" class="col-3 fs-3 ">Save up to 40% by paying weekly</th>
-      <th scope="col" class="blue">
+      <th scope="col" class="col-3 fs-3 text-black">Save up to 40% by paying weekly</th>
+      <th scope="col" class="blue text-black">
         <div class="d-flex flex-column justify-content-center  align-items-center  "> 
           <img src="../../img/img-secondarie/h5-custom-icon-7.png" alt="Lamp">
           <h5 class="mt-3">Standard</h5>
           <span class="mb-3" >$ 12</span>
         </div>
       </th>
-      <th scope="col" class="blue">
+      <th scope="col" class="blue text-black">
         <div class="d-flex flex-column justify-content-center  align-items-center "> 
           <img src="../../img/img-secondarie/h5-custom-icon-8.png" alt="Lamp">
           <h5 class="mt-3">Professional</h5>
           <span class="mb-3">$ 59</span>
         </div>
       </th>
-      <th scope="col" class="blue">
+      <th scope="col" class="blue text-black">
         <div class="d-flex flex-column justify-content-center  align-items-center "> 
           <img src="../../img/img-secondarie/h5-custom-icon-9.png" alt="Lamp">
           <h5 class="mt-3">Advanced</h5>

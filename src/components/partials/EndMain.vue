@@ -63,7 +63,7 @@ import PricingTable from './PricingTable.vue';
 
 <style lang="scss" scoped>
 .word-container{
-  margin: 60px 45px;
+  margin: 60px 60px;
   margin-bottom: 150px;
 }a{
   padding: 30px 20px;

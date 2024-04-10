@@ -41,8 +41,8 @@
 <style lang="scss" scoped>
 .word-container{
   margin-top: 60px;
-  margin-left: 45px;
-  margin-right: 45px;
+  margin-left: 65px;
+  margin-right: 65px;
 }h6{
   color: #36C3FF;
 }img{
