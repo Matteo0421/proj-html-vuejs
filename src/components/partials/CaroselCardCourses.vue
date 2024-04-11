@@ -53,4 +53,6 @@ import 'swiper/css/bundle'; // Importa tutti gli stili di Swiper
   width: auto !important; 
 }
 
+
+
 </style>

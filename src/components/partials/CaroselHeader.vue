@@ -57,11 +57,11 @@ export default {
 }.my-btn-2{
   background-color: #41C4FF;
   border: none;
-  padding: 15px;
+  padding: 20px 35px;
 }
 
 
-::v-deep .swiper-pagination-bullet {
+:deep(.swiper-pagination-bullet) {
   background-color: white; /* Imposta il colore del pallino a bianco */
 }
 </style>

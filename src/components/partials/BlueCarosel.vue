@@ -61,7 +61,7 @@ img {
   width: 120px;
 }
 
-::v-deep .swiper-pagination-bullet {
+:deep(.swiper-pagination-bullet) {
   background-color: white; /* Imposta il colore del pallino a bianco */
 }
 </style>
